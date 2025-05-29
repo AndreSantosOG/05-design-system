@@ -1,4 +1,4 @@
-# @andre-santos-ignite-ui/react
+# @ignite-ui/react
 
 ## 2.0.0
 
