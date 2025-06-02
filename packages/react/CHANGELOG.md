@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- fix packages
+
+## 1.0.2
+
+### Patch Changes
+
 - Fix all imports
 
 ## 1.0.1
