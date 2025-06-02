@@ -27,14 +27,14 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.12",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@andre-santos-ignite-ui/eslint-config": "*",
+    "@andre-santos-ignite-ui/react": "*",
+    "@andre-santos-ignite-ui/tokens": "*",
+    "@andre-santos-ignite-ui/ts-config": "*"
   }
 }
