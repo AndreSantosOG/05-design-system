@@ -1,4 +1,4 @@
-# @ignite-ui/react
+# @andre-santos-ignite-ui/react
 
 ## 1.0.1
 
