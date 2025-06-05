@@ -1,4 +1,4 @@
-import { styled, keyframes } from '../../styles'
+import { keyframes, styled } from '../../styles'
 
 const fadeInUp = keyframes({
   from: { opacity: 0, transform: 'translateY(20px)' },
@@ -7,16 +7,16 @@ const fadeInUp = keyframes({
 
 export const ToastContainer = styled('div', {
   position: 'fixed',
-  bottom: '20px',
-  right: '20px',
-  backgroundColor: '#121214',
-  color: 'white',
-  padding: '16px 24px',
-  borderRadius: '6px',
+  bottom: '$5',
+  right: '$5',
+  backgroundColor: '$gray900',
+  color: '$white',
+  padding: '$4 $6',
+  borderRadius: '$sm',
   boxShadow: '0px 4px 12px rgba(0,0,0,0.4)',
   display: 'flex',
   alignItems: 'center',
-  gap: '12px',
+  gap: '$3',
   zIndex: 999,
   animation: `${fadeInUp} 300ms ease-out`,
 })
@@ -24,22 +24,25 @@ export const ToastContainer = styled('div', {
 export const ToastMessage = styled('div', {
   display: 'flex',
   flexDirection: 'column',
+  fontFamily: '$default',
 
   strong: {
-    fontSize: '16px',
+    fontFamily: '$default',
+    fontSize: '$md',
     fontWeight: 'bold',
   },
 
   span: {
-    fontSize: '14px',
-    color: '#a8a8b3',
+    fontFamily: '$default',
+    fontSize: '$sm',
+    color: '$gray200',
   },
 })
 
 export const ToastCloseButton = styled('button', {
   background: 'transparent',
   border: 0,
-  color: '#a8a8b3',
-  fontSize: '18px',
+  color: '$gray200',
+  fontSize: '$lg',
   cursor: 'pointer',
 })
