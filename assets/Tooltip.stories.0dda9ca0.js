@@ -1,0 +1,2 @@
+import{e as o,T as r,B as s}from"./index.a4e27900.js";import{j as t}from"./jsx-runtime.6c3ea5f7.js";import"./index.c05481f4.js";import"./iframe.f10a8770.js";import"./index.ce873b5d.js";const c={title:"Feedback/Tooltip",component:o,args:{content:"26 de Outubro - Dispon\xEDvel",children:t(r,{children:"26"})},decorators:[e=>t(s,{css:{display:"flex",justifyContent:"center",alignItems:"center",height:"200px"},children:e()})]},d={},m=["Default"];export{d as Default,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Tooltip.stories.0dda9ca0.js.map
